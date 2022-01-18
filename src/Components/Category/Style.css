@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.the{
+    font-size: 24px;
+    transform:rotate(-90deg);
+    position: relative;
+    left: -75px;
+    top: 44px;
+}
+.si{
+    font-weight: 760;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+.navbar li a{
+    text-decoration: none;
+}
+.featured_art1{
+    margin: 40px 0px 40px 280px;
+    border-radius: 20px;
+    height: 440px;
+    width: 520px;
+    /* background-image: url("https://mldvwwasb8tu.i.optimole.com/5CC9Lzs.esbD~6200b/w:1000/h:847/q:90/https://travelaway.me/wp-content/uploads/2013/04/cologne-germany-aerial-view.jpg"); */
+    /* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thetrendspotter.net%2Fbeautiful-places-in-the-world-to-visit%2F&psig=AOvVaw35N1G6t7yf2MNsGq9qMFN9&ust=1642249275153000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjfgd6dsfUCFQAAAAAdAAAAABAD"); */
+    background-position: center center;
+    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+    background-repeat: no-repeat;
+    background-image: url("https://blog.thomascook.in/wp-content/uploads/2017/01/Four-seasons-Bora-Bora-yexplore.travel-1024x768.jpg");
+}
+.featured_art2{
+    position: absolute;
+    left: 860px;
+    top: 147px;
+    border-radius: 20px;
+    height: 350px;
+    width: 370px;
+}
+.small_1{
+background-image: url("http://blogplongee.fr/photos/fakarava/plus-belle-plage-au-monde.JPG");
+background-position: center center;
+height: 190px;
+border-radius: 20px;
+margin-bottom: 30px;
+
+} 
+.small_2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9yizgjxdZUMg0_ymo-1eTop_3-qxf12Pt7A&usqp=CAU");
+    background-position: center center;
+    height: 210px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+}
+.the_latest{
+    /* border:2px solid black; */
+    height: 350px;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .the_home{
+  
+} */
+
+.box_1 img{
+    margin:25px;
+    height: 290px;
+    width: 370px;
+    /* background-image: url("https://news-decoder.com/wp-content/uploads/2021/11/greenland3-scaled.jpg"); */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    border-radius: 25px;
+}
+.box_1cont{
+    height: 200px;
+    width: 330px;
+    font-size: 19px;
+    margin-left: 40px;
+}
+.box_2cont{
+    height: 200px;
+    width: 330px;
+    font-size: 19px;
+    margin-left: 40px;
+}
+.box_3cont{
+    height: 200px;
+    width: 330px;
+    font-size: 19px;
+    margin-left: 40px;
+}
+.box_2 img{
+    margin:25px;
+    height: 290px;
+    width: 370px;
+    /* background-image: url("https://www.financialexpress.com/wp-content/uploads/2021/06/10-2.jpg"); */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    border-radius: 20px;
+}
+.box_3 img{
+    margin:25px;
+    height: 290px;
+    width: 370px;
+    /* background-image: url("https://www.foodsafety.gov/sites/default/files/styles/og_image_style/public/2019-05/Keep%20Food%20Safe.jpg?h=a4d068ee&itok=1SFsheMq"); */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    border-radius: 20px;
+}
+.cat1box_1{
+    border: blue;
+    height: 200px;
+    width: 250px;
+}
+.cat1box_2{
+    border: blue;
+    height: 200px;
+    width: 250px;
+}
+.cat1box_3{
+    border: blue;
+    height: 200px;
+    width: 250px;
+}
