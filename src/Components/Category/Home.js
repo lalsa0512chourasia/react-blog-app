@@ -4,6 +4,7 @@
 // import {NoteContext} from './NoteContext'
 import FeaturedArt from '../FeaturedArt';
 import LatestArtAll from '../LatestArtAll';
+import LatestArtCat1 from '../LatestArtCat1'
 
 const Home = () => {
 // const [data, setData]  = useContext(NoteContext);

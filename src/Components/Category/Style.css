@@ -119,18 +119,19 @@ margin-bottom: 30px;
     /* background-size: cover; */
     border-radius: 20px;
 }
-.cat1box_1{
+.cat1box_1 img{
     border: blue;
     height: 200px;
     width: 250px;
 }
-.cat1box_2{
-    border: blue;
+.cat1box_2 img{
+    border: 2px solid blue;
     height: 200px;
-    width: 250px;
+    width: 300px;
+
 }
-.cat1box_3{
-    border: blue;
+.cat1box_3 img{
+    border: 2px solid blue;
     height: 200px;
-    width: 250px;
+    width: 300px;
 }

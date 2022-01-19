@@ -21,11 +21,11 @@ function App() {
             {/* <Route path='/' element={<Home/>}/> */}
 
             <Route path='/' element={<Home />} />
-            <Route path='/bollywood' element={<Bollywood />} />
+            {/* <Route path='/bollywood' element={<Bollywood />} />
             <Route path='/technology' element={<Technology />} />
             <Route path='/hollywood' element={<Hollywood />} />
             <Route path='/fitness' element={<Fitness />} />
-            <Route path='/food' element={<Food />} />
+            <Route path='/food' element={<Food />} /> */}
 
           </Routes>
         </Router>
