@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Category/Header';
 import Home from './Components/Category/Home';
-import Bollywood from './Components/Category/Bollywood';
-import Technology from './Components/Category/Technology';
-import Hollywood from './Components/Category/Hollywood';
-import Fitness from './Components/Category/Fitness';
-import Food from './Components/Category/Food';
+// import Bollywood from './Components/Category/Bollywood';
+// import Technology from './Components/Category/Technology';
+// import Hollywood from './Components/Category/Hollywood';
+// import Fitness from './Components/Category/Fitness';
+// import Food from './Components/Category/Food';
 import './Components/Category/Style.css';
 import { DataProvider } from './Components/Category/NoteContext';
 

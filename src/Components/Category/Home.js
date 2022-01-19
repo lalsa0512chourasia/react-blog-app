@@ -5,6 +5,9 @@
 import FeaturedArt from '../FeaturedArt';
 import LatestArtAll from '../LatestArtAll';
 import LatestArtCat1 from '../LatestArtCat1'
+import LatestArtCat2 from '../LatestArtCat2'
+import LatestArtCat3 from '../LatestArtCat3'
+import TopPost from '../TopPost';
 
 const Home = () => {
 // const [data, setData]  = useContext(NoteContext);
@@ -33,6 +36,9 @@ const Home = () => {
         <FeaturedArt/>
         <LatestArtAll/>
         <LatestArtCat1/>
+        <LatestArtCat2/>
+        <LatestArtCat3/>
+        <TopPost/>
         
         </>
     )

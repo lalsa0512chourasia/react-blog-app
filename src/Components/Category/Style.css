@@ -65,15 +65,21 @@ margin-bottom: 30px;
 .the_latest{
     /* border:2px solid black; */
     height: 350px;
+    /* width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+/* .the_home{
+  
+} */
+.main_ArtAll{
+    margin: 10px;
     width: 100%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/* .the_home{
-  
-} */
-
 .box_1 img{
     margin:25px;
     height: 290px;
@@ -119,19 +125,48 @@ margin-bottom: 30px;
     /* background-size: cover; */
     border-radius: 20px;
 }
+.maincat1{
+    position: relative;
+    top: 350px;
+    right: 450px;
+}
+.maincat1 h2{
+    margin: 10px 0px 40px 0px;
+}
 .cat1box_1 img{
-    border: blue;
-    height: 200px;
-    width: 250px;
-}
-.cat1box_2 img{
     border: 2px solid blue;
     height: 200px;
-    width: 300px;
+    width: 280px;
+}
+.cat1box_1 p{
+    border: 2px solid red;
+    height: 100px;
+    width: 500px;
+}
+.cat2box_2 {
+    margin-top: 410px;
+    margin-left: -900px;
+}
 
-}
-.cat1box_3 img{
+.cat2box_2 img{
     border: 2px solid blue;
     height: 200px;
+    width: 280px;
+}
+
+.cat3box_3{
+    margin-top: 50px;
+    margin-left: -900px;
+}
+.cat3box_3 img{
+    border: 2px solid blue;
+    height: 200px;
+    width: 280px;
+}
+.rightfloat{
+    float: right;
+    clear: left;
+    border: 2px solid green;
+    height: 400px;
     width: 300px;
 }
