@@ -7,6 +7,9 @@ const [data, setData] = useContext(NoteContext);
 
 const hndl=()=>{
            console.log(data[0].title);
+           setData=()=>{
+               console.log("hello");
+           }
     }
     return (
         <div>
