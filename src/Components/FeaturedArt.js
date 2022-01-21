@@ -3,7 +3,7 @@ import { useContext } from 'react/cjs/react.development'
 import {NoteContext} from '../Components/Category/NoteContext'
 
 const FeaturedArt = () => {
-// const [data, setData] = useContext(NoteContext);
+const [data, setData] = useContext(NoteContext);
 
 // const hndl=()=>{
 //            console.log(data[0].title);
