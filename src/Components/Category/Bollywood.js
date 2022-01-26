@@ -38,7 +38,7 @@ const Bollywood = () => {
 
         <h1>Top Post</h1>
         <div className='top top1'>
-          <img src='' alt='' />
+          <img src={curElem.img} alt='' />
         </div>
         <div className='top top2'></div>
         <div className='top top3'></div>
