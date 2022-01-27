@@ -11,22 +11,22 @@ import TopPost from '../TopPost';
 import LatestStories from '../LatestStories'
 
 const Home = () => {
-// const [data, setData]  = useContext(NoteContext);
+    // const [data, setData]  = useContext(NoteContext);
 
-// useEffect(() => {
-//     setData()
-   
-// }, [])    [1:13 in hoc wala video]
+    // useEffect(() => {
+    //     setData()
 
-// const hndl=()=>{
-//        console.log(data[0].title);
-// }
+    // }, [])    [1:13 in hoc wala video]
+
+    // const hndl=()=>{
+    //        console.log(data[0].title);
+    // }
 
 
     return (
         // <>
         // <div className='featured_art1'>
-        
+
         // </div>
         // <div className='featured_art2'>
         //     <div className='small_1'>name={data[0].title}</div>
@@ -34,13 +34,13 @@ const Home = () => {
         // </div>
         // </>
         <>
-        <FeaturedArt/>
-        <LatestArtAll/>
-        <LatestArtCat1/>
-        <LatestArtCat2/>
-        <LatestArtCat3/>
-        <TopPost/>
-        <LatestStories/>
+            <FeaturedArt />
+            <LatestArtAll />
+            <LatestArtCat1 />
+            <LatestArtCat2 />
+            <LatestArtCat3 />
+            <TopPost />
+            <LatestStories />
         </>
     )
 }

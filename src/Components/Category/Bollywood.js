@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { useContext } from 'react'
 import { NoteContext } from './NoteContext'
 
 const Bollywood = () => {
   const [data] = useContext(NoteContext);
 
-  const [visible, setvisible] = useState();
-  console.log(data);
+  // const [visible, setvisible] = useState();
+  // console.log(data);
 
-  const moreitems = () => {
-    console.log(visible);
-  // setvisible (!visible)
-    setvisible((prevValue) => prevValue + 4)
-  }
+  // const moreitems = () => {
+  //   console.log(visible);
+  // // setvisible (!visible)
+  //   setvisible((prevValue) => prevValue + 4)
+  // }
+  // .slice(0, visible)
  
   return (
 
@@ -20,19 +21,19 @@ const Bollywood = () => {
 
     <>
       <h1>Bollywood</h1>
-      {data.slice(0, visible).filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
+      {data.filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
         return (
           <div className="bollymain" key={curElem.id}>
             <div className="bolly">
               <img src={curElem.img} alt="My Awesome" />
-              <p>
+              <div className="bollyp">
                 <h4>{curElem.title}</h4>
 
                 <span>{curElem.content}</span><br />
 
                 <strong>{curElem.category}</strong> / {curElem.date_of_publish}
 
-              </p>
+              </div>
               <hr />
             </div>
 
@@ -45,7 +46,7 @@ const Bollywood = () => {
         )
       })}
       
-      <button onClick={moreitems}>Load More</button>
+      {/* <button onClick={moreitems}>Load More</button> */}
 
       <div className='bollyrightfloat2'>
 

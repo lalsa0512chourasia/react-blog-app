@@ -13,14 +13,14 @@ const Food = () => {
           <div className="bollymain" key={curElem.id}>
             <div className="bolly">
               <img src={curElem.img} alt="My Awesome" />
-              <p>
+              <div className="bollyp">
                 <h3>{curElem.title}</h3>
 
                 <span>{curElem.content}</span><br />
 
                 <strong>{curElem.category}</strong>/ {curElem.date_of_publish}
 
-              </p>
+              </div>
               <hr />
             </div>
 
