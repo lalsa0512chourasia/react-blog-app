@@ -134,21 +134,22 @@ margin-bottom: 30px;
 }
 .maincat1 h2{
     margin: 10px 0px 40px 0px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
 .cat1box_1 img{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 200px;
     width: 280px;
 }
 .cat1box_1 p{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 180px;
     width: 300px;
     position: relative;
     top: -200px;
     left: 1050px;
+    font-size: 18px;
 }
 .cat2box_2 {
     margin-top: 200px;
@@ -156,17 +157,18 @@ margin-bottom: 30px;
     height: 245px;
 }
 .cat2box_2 img{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 200px;
     width: 280px;
 }
 .cat2box_2 p{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 180px;
     width: 300px;
     position: relative;
     top: -200px;
     left: 1490px;
+    font-size: 18px;
 }
 
 .cat3box_3{
@@ -176,17 +178,19 @@ margin-bottom: 30px;
 
 }
 .cat3box_3 img{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 200px;
     width: 280px;
 }
 .cat3box_3 p{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 180px;
     width: 300px;
     position: relative;
     top: -200px;
     left: 1490px;
+    font-size: 18px;
+
 }
 .hometoppost{
     position: relative;
@@ -210,14 +214,33 @@ margin-bottom: 30px;
     margin: 20px;
 }
 .top{
-    border: 2px solid orange;
-    margin: 25px;
+    /* border: 2px solid orange; */
+    margin: 20px 0px 50px 20px;
     height: 140px;
     width: 200px
 }
-.top1{
-    height: 180px;
-    width: 300px
+.top1 img{
+    height: 154px;
+    width: 270px;
+}
+.top1 span{
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    font-size: 70px;
+    color: lightgray;
+}
+.top2 img{
+    height: 140px;
+    width: 200px;
+}
+.top3 img{
+    height: 140px;
+    width: 200px;
+}
+.top4 img{
+    height: 140px;
+    width: 200px;
 }
 .homebottom{
     display:flex;
@@ -231,10 +254,13 @@ margin-bottom: 30px;
    border: 2px solid cyan;
    margin-top: 100px;
 }
+h1{
+    margin-left: 20px;
+}
 .bolly img{
     height: 200px;
     width: 250px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 20px;
 }
 .bolly{
@@ -244,7 +270,7 @@ margin-bottom: 30px;
     margin-bottom: -100px;
 }
 .bolly p{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 180px;
     width: 400px;
     position: relative;
