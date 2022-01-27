@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContext } from 'react/cjs/react.development'
+import { useContext } from 'react'
 import { NoteContext } from './NoteContext'
 
 const Fitness = () => {
@@ -42,10 +42,10 @@ const Fitness = () => {
   <span>1</span>
 </div>
 <div className='top top2'>
-  <img src='https://hdwallsource.com/img/2016/4/fitness-high-resolution-wallpaper-51317-53015-hd-wallpapers.jpg' alt=''/>
+  <img src='https://hdwallsource.com/img/2016/4/fitness-high-resolution-wallpaper-51317-53015-hd-wallpapers.jpg' alt=''/><span>2</span>
 </div>
-<div className='top top3'><img src='https://www.artofliving.org/sites/www.artofliving.org/files/wysiwyg_imageupload/Yoga-for-Naturally-Glowing-Skin-and-Face%2C.jpg' alt=''/></div>
-<div className='top top4'><img src='https://thumbs.dreamstime.com/b/health-food-fitness-concept-fresh-t-vegetables-pulses-herbs-spices-nuts-grains-high-anthocyanins-antioxidants-102707769.jpg' alt=''/></div>
+<div className='top top3'><img src='https://www.artofliving.org/sites/www.artofliving.org/files/wysiwyg_imageupload/Yoga-for-Naturally-Glowing-Skin-and-Face%2C.jpg' alt=''/><span>3</span></div>
+<div className='top top4'><img src='https://thumbs.dreamstime.com/b/health-food-fitness-concept-fresh-t-vegetables-pulses-herbs-spices-nuts-grains-high-anthocyanins-antioxidants-102707769.jpg' alt=''/><span>4</span></div>
 </div>
 
 <div className='bollyadver'>

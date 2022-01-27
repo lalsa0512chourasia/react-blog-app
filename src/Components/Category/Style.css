@@ -199,7 +199,7 @@ margin-bottom: 30px;
     clear: left;
 }
 .rightfloat2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 600px;
     width: 480px;
 }
@@ -234,13 +234,35 @@ margin-bottom: 30px;
     height: 140px;
     width: 200px;
 }
+.top2 span{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 70px;
+    color: lightgray;
+}
+
 .top3 img{
     height: 140px;
     width: 200px;
 }
+.top3 span{
+    position: absolute;
+    top: 490px;
+    left: 400px;
+    font-size: 70px;
+    color: lightgray;
+}
 .top4 img{
     height: 140px;
     width: 200px;
+}
+.top4 span{
+    position: absolute;
+    top: 670px;
+    left: 400px;
+    font-size: 70px;
+    color: lightgray;
 }
 .homebottom{
     display:flex;

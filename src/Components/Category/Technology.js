@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContext } from 'react/cjs/react.development'
+import { useContext } from 'react';
 import { NoteContext } from './NoteContext'
 
 const Technology = () => {
@@ -48,10 +48,10 @@ const moreitems = () =>{
   <span>1</span>
 </div>
 <div className='top top2'>
-  <img src='https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt=''/>
+  <img src='https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt=''/><span>2</span>
 </div>
-<div className='top top3'><img src='https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt=''/></div>
-<div className='top top4'><img src='https://image.shutterstock.com/image-vector/kids-learning-coding-programming-online-600w-1777292972.jpg' alt=''/></div>
+<div className='top top3'><img src='https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHx0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt=''/><span>3</span></div>
+<div className='top top4'><img src='https://image.shutterstock.com/image-vector/kids-learning-coding-programming-online-600w-1777292972.jpg' alt=''/><span>4</span></div>
 </div>
 
 <div className='bollyadver'>

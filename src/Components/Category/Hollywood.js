@@ -1,5 +1,5 @@
 import React from 'react';
-import { useContext } from 'react/cjs/react.development'
+import { useContext } from 'react'
 import { NoteContext } from './NoteContext'
 
 const Hollywood = () => {
@@ -39,10 +39,10 @@ const Hollywood = () => {
   <span>1</span>
 </div>
 <div className='top top2'>
-  <img src='https://www.filmibeat.com/img/320x100x392/popcorn/trending_news/spider-man-arriving-early-in-india-5761-20211129130135.jpg' alt=''/>
+  <img src='https://www.filmibeat.com/img/320x100x392/popcorn/trending_news/spider-man-arriving-early-in-india-5761-20211129130135.jpg' alt=''/> <span>2</span>
 </div>
-<div className='top top3'><img src='https://www.teahub.io/photos/full/256-2561554_hollywood-new-upcoming-movies.jpg' alt=''/></div>
-<div className='top top4'><img src='https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg' alt=''/></div>
+<div className='top top3'><img src='https://www.teahub.io/photos/full/256-2561554_hollywood-new-upcoming-movies.jpg' alt=''/><span>3</span></div>
+<div className='top top4'><img src='https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg' alt=''/><span>4</span></div>
 </div>
 
 <div className='bollyadver'>
