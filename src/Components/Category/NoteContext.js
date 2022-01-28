@@ -178,7 +178,8 @@ export const DataProvider = (props) => {
             content: "Momo is a type of steamed dumpling with some form of filling.  Momo has become a traditional delicacy in Nepal, Tibet, as well as among Nepalese and Tibetan communities in Bhutan, as well as people of the Indian regions. Momo is found in the cuisines of Nepal and Tibet.",
             "category": "Food",
             "date_of_publish": "Jan 22",
-            "img": "https://ifreezefood.com/wp-content/uploads/2020/10/Veg-1.jpg",
+            // "img": "https://ifreezefood.com/wp-content/uploads/2020/10/Veg-1.jpg",
+            img:"https://c8.alamy.com/comp/2C45C7P/veg-momos-on-black-slate-table-top-momos-is-the-popular-dish-of-indian-tibetan-chinese-cuisines-asian-food-vegetarian-meal-2C45C7P.jpg"
         },
         {
             "id": 21,
