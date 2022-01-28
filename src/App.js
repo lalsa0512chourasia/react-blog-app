@@ -26,7 +26,9 @@ function App() {
             <Route path='/hollywood' element={<Hollywood />} />
             <Route path='/fitness' element={<Fitness />} />
             <Route path='/food' element={<Food />} />
-
+               {/* <Route>
+                 <Route path='/:title/:id' element={<Fullcard/>}>
+               </Route>                                                                                                  */}
           </Routes>
         </Router>
       </div>

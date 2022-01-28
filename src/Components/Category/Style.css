@@ -145,7 +145,7 @@ margin-bottom: 30px;
 .cat1box_1p{
     /* border: 2px solid red; */
     height: 180px;
-    width: 300px;
+    width: 330px;
     position: relative;
     top: -200px;
     left: 1050px;
@@ -164,7 +164,7 @@ margin-bottom: 30px;
 .cat2box_2p{
     /* border: 2px solid red; */
     height: 180px;
-    width: 300px;
+    width: 350px;
     position: relative;
     top: -200px;
     left: 1490px;
@@ -185,7 +185,7 @@ margin-bottom: 30px;
 .cat3box_3p{
     /* border: 2px solid red; */
     height: 180px;
-    width: 300px;
+    width: 320px;
     position: relative;
     top: -200px;
     left: 1490px;
@@ -197,6 +197,20 @@ margin-bottom: 30px;
     top: -1000px;
     float: right;
     clear: left;
+}
+
+#homespan1{
+    position: absolute;
+    top: 570px;
+}
+#homespan2{
+    top:730px;
+}
+#homespan3{
+    top:920px;
+}
+#homespan4{
+    top:1120px;
 }
 .rightfloat2{
     /* border: 2px solid red; */
@@ -263,18 +277,26 @@ margin-bottom: 30px;
     left: 400px;
     font-size: 70px;
     color: lightgray;
+
 }
 .homebottom{
     display:flex;
-    justify-content: space-evenly;
-   border: 2px solid chartreuse;
+    /* justify-content: space-evenly; */
+   /* border: 2px solid chartreuse; */
    height: 400px;
 }
 .homebottom1{
-   height: 200px;
-   width: 250px;
-   border: 2px solid cyan;
-   margin-top: 100px;
+    height: 288px;
+    width: 680px;
+    /* border: 2px solid cyan; */
+    margin-top: 100px;
+}
+.homebottom h1{
+    width: 600px;
+    height: 100px;
+}
+.homebls{
+    font-size: 18px;
 }
 h1{
     margin-left: 20px;
@@ -306,7 +328,7 @@ h1{
     top: -150px;
 }
 .bollyrightfloat2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 800px;
     width: 480px;
     position: absolute;

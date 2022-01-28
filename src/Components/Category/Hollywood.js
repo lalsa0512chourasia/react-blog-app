@@ -24,9 +24,6 @@ const Hollywood = () => {
               <hr />
             </div>
           </div>
-
-
-
         )
       })}
 
@@ -48,8 +45,6 @@ const Hollywood = () => {
 <div className='bollyadver'>
 Advertisement
 </div>
-
-
     </>
   )
 }
