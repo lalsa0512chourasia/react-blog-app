@@ -16,7 +16,7 @@ const Fullcard = () => {
 
         <>
             <div className='categorytop'>
-                {data.filter((value) => (value.id === id && value.category === category)).map((val) => (
+                {data.filter((value) => (value.id == id && value.category == category)).map((val) => (
                     <div className='article' key={id}>
                         <img src={val.img} alt="My Awesome" />
                         <p>{val.title}</p>
