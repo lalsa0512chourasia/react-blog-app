@@ -1,10 +1,10 @@
 import React from 'react'
-import { useContext } from 'react'
-import {NoteContext} from '../Components/Category/NoteContext'
+// import { useContext } from 'react'
+// import {NoteContext} from '../Components/Category/NoteContext'
 
 const FeaturedArt = () => {
 // const [data, setData] = useContext(NoteContext);
-const [data] = useContext(NoteContext);
+// const [data] = useContext(NoteContext);
 
 // const hndl=()=>{
 //            console.log(data[0].title);
@@ -17,7 +17,7 @@ const [data] = useContext(NoteContext);
         
         </div>
         <div className='featured_art2'>
-            <div className='small_1'>Title: {data[0].title}</div>
+            <div className='small_1'> </div>
             <div className='small_2'></div>
             {/* <div className='small_2' onClick={hndl}></div> */}
         </div>

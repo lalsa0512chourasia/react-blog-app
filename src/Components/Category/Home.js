@@ -1,6 +1,7 @@
-// import React from 'react';
+import React, { useState } from 'react';
+// import {Link} from 'react-router-dom'
 // import React, { useContext, useEffect} from 'react'
-// import { useContext } from 'react/cjs/react.development'
+// import { useContext } from 'react'
 // import {NoteContext} from './NoteContext'
 import FeaturedArt from '../FeaturedArt';
 import LatestArtAll from '../LatestArtAll';
@@ -11,6 +12,13 @@ import TopPost from '../TopPost';
 import LatestStories from '../LatestStories'
 
 const Home = () => {
+    const [load, setload] = useState(false)
+
+    const setloadmore = () => {
+
+        setload(!load)
+        // setName("Load less")
+    }
     // const [data, setData]  = useContext(NoteContext);
 
     // useEffect(() => {
@@ -36,9 +44,28 @@ const Home = () => {
         <>
             <FeaturedArt />
             <LatestArtAll />
-            <LatestArtCat1 />
-            <LatestArtCat2 />
-            <LatestArtCat3 />
+            {load ?
+              <>
+                    <LatestArtCat1 />
+                    <LatestArtCat2 />
+                    <LatestArtCat3 />
+                    <div className='reaplatest'>
+                    <LatestArtCat1 />
+                    <LatestArtCat2 />
+                    <LatestArtCat3 />
+                </div>
+                </>
+                :
+                <div className='laterep'>
+                    <LatestArtCat1 />
+                    <LatestArtCat2 />
+                    <LatestArtCat3 />
+
+                </div>
+            }
+                    <button className='loadm' onClick={setloadmore}>{load === false ? "Load More" : "Load Less"}</button>
+
+
             <TopPost />
             <LatestStories />
         </>
@@ -46,3 +73,7 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+

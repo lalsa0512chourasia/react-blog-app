@@ -195,6 +195,7 @@ margin-bottom: 30px;
 .hometoppost{
     position: relative;
     top: -1000px;
+    /* top: -1600px; */
     float: right;
     clear: left;
 }
@@ -312,6 +313,7 @@ h1{
     right: 500px;
     top: 40px;
     margin-bottom: -100px;
+
 }
 .bollyp{
     /* border: 2px solid red; */
@@ -322,6 +324,10 @@ h1{
     left: 950px;
     font-size: 18px;
     padding: 10px;
+}
+a:link{
+    text-decoration-line: none;
+
 }
 .bolly hr{
     position: relative;
@@ -347,4 +353,38 @@ h1{
     position: absolute;
     top: 1000px;
     left: 1050px;
+}
+
+.categorytop{
+    border: 2px solid red;
+    height: auto;
+    height: 1000px;
+    width: 450px;
+    margin: auto;
+}
+.morefrom{
+    font-size: 28px;
+    margin-right: 1100px;
+    font-weight: 600;
+}
+
+.article img{
+    height: 280px;
+    width: 450px;
+}
+.article p{
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.loadm{
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: cyan;
+    font-size: 15px;
+}
+.reaplatest{
+    margin-top: -580px;
 }

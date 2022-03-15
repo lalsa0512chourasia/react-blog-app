@@ -1,5 +1,5 @@
-import React from 'react';
-import { useContext } from 'react';
+import React, { useContext } from 'react';
+import {Link} from 'react-router-dom'
 import { NoteContext } from './NoteContext'
 
 const Technology = () => {
@@ -18,7 +18,7 @@ const moreitems = () =>{
         return (
           <div className="bollymain" key={curElem.id}>
             <div className="bolly">
-              <img src={curElem.img} alt="My Awesome" />
+            <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> <img src={curElem.img} alt="My Awesome" />
               <div className="bollyp">
                 <h3>{curElem.title}</h3>
 
@@ -26,7 +26,7 @@ const moreitems = () =>{
 
                 <strong>{curElem.category}</strong> / {curElem.date_of_publish}
 
-              </div>
+              </div></Link>
               <hr />
             </div>
 
