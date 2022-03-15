@@ -1,8 +1,7 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useContext } from 'react'
 import { NoteContext } from './NoteContext'
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 
 const Bollywood = () => {
   const [data] = useContext(NoteContext);

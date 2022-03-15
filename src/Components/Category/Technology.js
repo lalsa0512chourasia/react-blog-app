@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import {Link} from 'react-router-dom'
 import { NoteContext } from './NoteContext'
 
@@ -6,14 +6,21 @@ const Technology = () => {
   const [data] = useContext(NoteContext);
   console.log(data);
 
+  const [load, setload] = useState(false)
 
-const moreitems = () =>{
-  console.log("heggg");
-}
+  const setloadmore = () => {
+
+    setload(!load)
+    // setName("Load less")
+  }
+
 
   return (
     <>
       <h1>Technology</h1>
+
+      {load ?
+      <>
       {data.filter((x) => x.id > 4 && x.id < 9).map((curElem) => {
         return (
           <div className="bollymain" key={curElem.id}>
@@ -29,17 +36,54 @@ const moreitems = () =>{
               </div></Link>
               <hr />
             </div>
-
-
-
           </div>
-
-
-
         )
       })}
 
-   <button onClick={moreitems}>Load More</button>
+      <>
+      {data.filter((x) => x.id > 4 && x.id < 9).map((curElem) => {
+        return (
+          <div className="bollymain" key={curElem.id}>
+            <div className="bolly">
+            <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> <img src={curElem.img} alt="My Awesome" />
+              <div className="bollyp">
+                <h3>{curElem.title}</h3>
+
+                <span>{curElem.content}</span><br />
+
+                <strong>{curElem.category}</strong> / {curElem.date_of_publish}
+
+              </div></Link>
+              <hr />
+            </div>
+          </div>
+        )
+      })}
+      </>
+      </>
+:
+<>
+{data.filter((x) => x.id > 4 && x.id < 9).map((curElem) => {
+        return (
+          <div className="bollymain" key={curElem.id}>
+            <div className="bolly">
+            <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> <img src={curElem.img} alt="My Awesome" />
+              <div className="bollyp">
+                <h3>{curElem.title}</h3>
+
+                <span>{curElem.content}</span><br />
+
+                <strong>{curElem.category}</strong> / {curElem.date_of_publish}
+
+              </div></Link>
+              <hr />
+            </div>
+          </div>
+        )
+      })}
+      </>
+    }
+
    <div className='bollyrightfloat2'>
 
 <h1>Top Post</h1>
@@ -58,7 +102,7 @@ const moreitems = () =>{
 Advertisement
 </div>
 
-
+<button className='loadm' onClick={setloadmore}>{load === false ? "Load More" : "Load Less"}</button>
     </>
   )
 }

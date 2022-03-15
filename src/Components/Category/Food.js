@@ -1,13 +1,21 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import {Link} from 'react-router-dom'
 import { NoteContext } from './NoteContext'
 
 const Food = () => {
   const [data] = useContext(NoteContext);
   console.log(data);
+  const [load, setload] = useState(false)
+
+  const setloadmore = () => {
+    setload(!load)
+  }
   return (
     <>
       <h1>Food</h1>
+      {load ?
+      <>
+      
       {data.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
         return (
           <div className="bollymain" key={curElem.id}>
@@ -23,16 +31,54 @@ const Food = () => {
               </div></Link>
               <hr />
             </div>
-
-
-
           </div>
-
-
-
         )
       })}
 
+      <>
+      {data.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
+        return (
+          <div className="bollymain" key={curElem.id}>
+            <div className="bolly">
+            <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> <img src={curElem.img} alt="My Awesome" /> 
+              <div className="bollyp">
+                <h3>{curElem.title}</h3>
+
+                <span>{curElem.content}</span><br />
+
+                <strong>{curElem.category}</strong>/ {curElem.date_of_publish}
+
+              </div></Link>
+              <hr />
+            </div>
+          </div>
+        )
+      })}
+      </>
+      </>
+      :
+      <>
+       {data.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
+        return (
+          <div className="bollymain" key={curElem.id}>
+            <div className="bolly">
+            <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> <img src={curElem.img} alt="My Awesome" /> 
+              <div className="bollyp">
+                <h3>{curElem.title}</h3>
+
+                <span>{curElem.content}</span><br />
+
+                <strong>{curElem.category}</strong>/ {curElem.date_of_publish}
+
+              </div></Link>
+              <hr />
+            </div>
+          </div>
+        )
+      })}
+      </>
+
+    }
 
 <div className='bollyrightfloat2'>
 
@@ -52,6 +98,7 @@ const Food = () => {
 Advertisement
 </div>
 
+<button className='loadm' onClick={setloadmore}>{load === false ? "Load More" : "Load Less"}</button>
 
     </>
   )
