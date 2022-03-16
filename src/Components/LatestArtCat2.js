@@ -1,16 +1,21 @@
 import React from 'react'
+import { useContext } from 'react'
+import { NoteContext } from '../Components/Category/NoteContext'
+// import { Link } from 'react-router-dom';
 
 const LatestArtCat2 = () => {
+    const [data] = useContext(NoteContext);
+    // console.log(data[12])
     return (
         <div>
              <div className='cat2box_2'>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8kuEv1ffns-zYJGU3TogmsOt415C-wHyu9g&usqp=CAU' alt='My Awesome '/>
+            <img src={data[12].img} alt='My Awesome '/>
             <div className='cat2box_2p'>
-                <h3>Cardiorespiratory</h3>
+                <h3>{data[12].title}</h3>
 
-                <span>Cycling in the morning has a multitude of benefits, and can be a great habit that promotes overall health, well-being, and happiness.  Benefits of cycling:- It Burn More Calories, It Reduces Stress.</span><br />
+                <span>{data[12].content}</span><br />
 
-                <strong>Fitness</strong>/ jan 22
+                <strong>{data[12].category}</strong>/ {data[12].date_of_publish}
 
               </div>
               {/* <hr /> */}

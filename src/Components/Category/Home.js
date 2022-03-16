@@ -63,7 +63,7 @@ const Home = () => {
 
                 </div>
             }
-                    <button className='loadm' onClick={setloadmore}>{load === false ? "Load More" : "Load Less"}</button>
+                    <button className='homeloadm' onClick={setloadmore}>{load === false ? "Load More" : "Load Less"}</button>
 
 
             <TopPost />

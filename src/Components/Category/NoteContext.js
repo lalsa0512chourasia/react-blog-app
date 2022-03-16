@@ -113,7 +113,7 @@ export const DataProvider = (props) => {
             img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
         },
         {
-              id: 13,
+            id: 13,
             title: "Cardiorespiratory",
             // content:"Fitness includes five essential components, flexibility, cardiorespiratory fitness, muscular endurance, muscular strength, and body composition. Fitness is vitally important to health and wellness as well as to the ability to engage in normal activities of daily living (ADLs) without excessive fatigue",
             content: "Cycling in the morning has a multitude of benefits, and can be a great habit that promotes overall health, well-being, and happiness.  Benefits of cycling:- It Burn More Calories, It Reduces Stress",

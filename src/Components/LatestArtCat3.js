@@ -1,17 +1,21 @@
 import React from 'react'
+import { useContext } from 'react'
+import { NoteContext } from '../Components/Category/NoteContext'
+// import { Link } from 'react-router-dom';
 
 const LatestArtCat3 = () => {
+    const [data] = useContext(NoteContext);
     return (
         <div>
             <div className='cat3box_3'>
-           <img src='https://d2r2ijn7njrktv.cloudfront.net/apnlive/uploads/2021/06/02172113/sherni.jpg' alt='My Awesome'/>
+           <img src={data[0].img} alt='My Awesome'/>
             {/* https://cdn.wallpapersafari.com/92/56/O3IDWP.jpg */}
             <div className='cat3box_3p'>
-                <h3>A Lioness</h3>
+                <h3>{data[0].title}</h3>
 
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste, eligendi in vero ullam cumque officiis quisquam autem odit explicabo.</span><br />
+                <span>{data[0].content}</span><br />
 
-                <strong>Bollywood</strong>/ jan 12
+                <strong>{data[0].category}</strong>/ {data[0].date_of_publish}
 
               </div>
               {/* <hr /> */}

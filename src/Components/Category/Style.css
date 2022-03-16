@@ -135,7 +135,6 @@ margin-bottom: 30px;
 .maincat1 h2{
     margin: 10px 0px 40px 0px;
     /* border: 2px solid blue; */
-
 }
 .cat1box_1 img{
     /* border: 2px solid blue; */
@@ -282,7 +281,7 @@ margin-bottom: 30px;
 }
 .homebottom{
     display:flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
    /* border: 2px solid chartreuse; */
    height: 400px;
 }
@@ -291,11 +290,30 @@ margin-bottom: 30px;
     width: 680px;
     /* border: 2px solid cyan; */
     margin-top: 100px;
+    position: relative;
+    left: -90px;
+    margin-left: 40px;
 }
 .homebottom h1{
     width: 600px;
     height: 100px;
 }
+.homebottom h1::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    background: red;
+    /* margin-left: 20px; */
+}
+/* h1::after{
+    content: "";
+    display: block;
+    width: 140px;
+    height: 2px;
+    background: red;
+    margin-left: 670px;
+} */
 .homebls{
     font-size: 18px;
 }
@@ -367,6 +385,18 @@ a:link{
     margin-right: 1100px;
     font-weight: 600;
 }
+.morefrom:after
+{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background: red;
+    margin-left: 77px;
+    /* right: 0;
+    top: 50%;
+    position: absolute; */
+}
 
 .article img{
     height: 280px;
@@ -380,6 +410,14 @@ a:link{
 .loadm{
     position: relative;
     top: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: cyan;
+    font-size: 15px;
+}
+.homeloadm{
+    position: relative;
+    bottom: 120px;
     padding: 10px;
     border-radius: 20px;
     background-color: cyan;
