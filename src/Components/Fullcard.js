@@ -15,7 +15,7 @@ const Fullcard = () => {
 
         <>
             <div className='categorytop'>
-                {data.filter((value) => (value.id === id && value.category === category)).map((val) => (
+                {data.filter((value) => (value.id == id && value.category == category)).map((val) => (
                     <div className='article' key={id}>
                         <img src={val.img} alt="My Awesome" />
                         <p>{val.title}</p>
@@ -28,14 +28,11 @@ const Fullcard = () => {
                         <i className="fa-solid fa-hands-clapping"></i>
                         {/* <i className="fa-solid fa-share-nodes"></i> */}
                         <i className="fa-light fa-square-share-nodes"></i>
+                        <img src='https://toppng.com//public/uploads/preview/woman-profile-icon-woman-name-ico-11563174580b4eksfnmku.png' alt='my awesome' style={{height:'80px', width:'70px'}}/>
                     </div>
 
                 ))}
             </div>
-
-
-
-
 
             <LatestArtAll />
 

@@ -27,17 +27,11 @@ ul{
 .navbar li a{
     text-decoration: none;
 }
-.featured_art1{
-    margin: 40px 0px 40px 280px;
+.featured_art1 img{
+    margin: 20px 600px 40px 180px;
     border-radius: 20px;
-    height: 440px;
+    height: 430px;
     width: 520px;
-    /* background-image: url("https://mldvwwasb8tu.i.optimole.com/5CC9Lzs.esbD~6200b/w:1000/h:847/q:90/https://travelaway.me/wp-content/uploads/2013/04/cologne-germany-aerial-view.jpg"); */
-    /* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thetrendspotter.net%2Fbeautiful-places-in-the-world-to-visit%2F&psig=AOvVaw35N1G6t7yf2MNsGq9qMFN9&ust=1642249275153000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjfgd6dsfUCFQAAAAAdAAAAABAD"); */
-    background-position: center center;
-    /* background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
-    background-repeat: no-repeat;
-    background-image: url("https://blog.thomascook.in/wp-content/uploads/2017/01/Four-seasons-Bora-Bora-yexplore.travel-1024x768.jpg");
 }
 .featured_art2{
     position: absolute;
@@ -47,34 +41,22 @@ ul{
     height: 350px;
     width: 370px;
 }
-.small_1{
-background-image: url("http://blogplongee.fr/photos/fakarava/plus-belle-plage-au-monde.JPG");
-background-position: center center;
-height: 190px;
+.small_1 img{
 border-radius: 20px;
 margin-bottom: 30px;
+height: 200px;
+width: 370px;
 
 } 
-.small_2{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9yizgjxdZUMg0_ymo-1eTop_3-qxf12Pt7A&usqp=CAU");
-    background-position: center center;
-    height: 210px;
-    background-repeat: no-repeat;
+.small_2 img{
+    height: 195px;
+    width: 370px;
     border-radius: 20px;
-    background-image: url("https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-
 }
 .the_latest{
-    /* border:2px solid black; */
     height: 350px;
-    /* width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
 }
-/* .the_home{
-  
-} */
+
 .main_ArtAll{
     margin: 10px;
     width: 100%;
@@ -86,9 +68,6 @@ margin-bottom: 30px;
     margin:25px;
     height: 290px;
     width: 370px;
-    /* background-image: url("https://news-decoder.com/wp-content/uploads/2021/11/greenland3-scaled.jpg"); */
-    /* background-position: center center; */
-    /* background-size: cover; */
     border-radius: 25px;
 }
 .box_1cont{
@@ -113,18 +92,12 @@ margin-bottom: 30px;
     margin:25px;
     height: 290px;
     width: 370px;
-    /* background-image: url("https://www.financialexpress.com/wp-content/uploads/2021/06/10-2.jpg"); */
-    /* background-position: center center; */
-    /* background-size: cover; */
     border-radius: 20px;
 }
 .box_3 img{
     margin:25px;
     height: 290px;
     width: 370px;
-    /* background-image: url("https://www.foodsafety.gov/sites/default/files/styles/og_image_style/public/2019-05/Keep%20Food%20Safe.jpg?h=a4d068ee&itok=1SFsheMq"); */
-    /* background-position: center center; */
-    /* background-size: cover; */
     border-radius: 20px;
 }
 .maincat1{
@@ -134,15 +107,15 @@ margin-bottom: 30px;
 }
 .maincat1 h2{
     margin: 10px 0px 40px 0px;
-    /* border: 2px solid blue; */
+}
+.cat1box_1{
+    height: 200px;
 }
 .cat1box_1 img{
-    /* border: 2px solid blue; */
     height: 200px;
     width: 280px;
 }
 .cat1box_1p{
-    /* border: 2px solid red; */
     height: 180px;
     width: 330px;
     position: relative;
@@ -151,17 +124,15 @@ margin-bottom: 30px;
     font-size: 18px;
 }
 .cat2box_2 {
-    margin-top: 200px;
+    margin-top: 385px;
     margin-left: -900px;
-    height: 245px;
+    height: 200px;
 }
 .cat2box_2 img{
-    /* border: 2px solid blue; */
     height: 200px;
     width: 280px;
 }
 .cat2box_2p{
-    /* border: 2px solid red; */
     height: 180px;
     width: 350px;
     position: relative;
@@ -171,18 +142,16 @@ margin-bottom: 30px;
 }
 
 .cat3box_3{
-    margin-top: 0px;
+    margin-top: 40px;
     margin-left: -900px;
     height:auto;
 
 }
 .cat3box_3 img{
-    /* border: 2px solid blue; */
     height: 200px;
     width: 280px;
 }
 .cat3box_3p{
-    /* border: 2px solid red; */
     height: 180px;
     width: 320px;
     position: relative;
@@ -194,7 +163,6 @@ margin-bottom: 30px;
 .hometoppost{
     position: relative;
     top: -1000px;
-    /* top: -1600px; */
     float: right;
     clear: left;
 }
@@ -213,7 +181,6 @@ margin-bottom: 30px;
     top:1120px;
 }
 .rightfloat2{
-    /* border: 2px solid red; */
     height: 600px;
     width: 480px;
 }
@@ -228,7 +195,6 @@ margin-bottom: 30px;
     margin: 20px;
 }
 .top{
-    /* border: 2px solid orange; */
     margin: 20px 0px 50px 20px;
     height: 140px;
     width: 200px
@@ -282,13 +248,11 @@ margin-bottom: 30px;
 .homebottom{
     display:flex;
     justify-content: space-evenly;
-   /* border: 2px solid chartreuse; */
    height: 400px;
 }
 .homebottom1{
     height: 288px;
     width: 680px;
-    /* border: 2px solid cyan; */
     margin-top: 100px;
     position: relative;
     left: -90px;
@@ -304,7 +268,6 @@ margin-bottom: 30px;
     width: 170px;
     height: 2px;
     background: red;
-    /* margin-left: 20px; */
 }
 /* h1::after{
     content: "";
@@ -323,7 +286,6 @@ h1{
 .bolly img{
     height: 200px;
     width: 250px;
-    /* border: 2px solid red; */
     border-radius: 20px;
 }
 .bolly{
@@ -334,7 +296,6 @@ h1{
     cursor: pointer;
 }
 .bollyp{
-    /* border: 2px solid red; */
     height: 180px;
     width: 400px;
     position: relative;
@@ -343,16 +304,18 @@ h1{
     font-size: 18px;
     padding: 10px;
 }
-a:link{
+a:link, a:visited{
     text-decoration-line: none;
-
+    color: black;
+}
+a:active, a:hover{
+    color: grey;
 }
 .bolly hr{
     position: relative;
     top: -150px;
 }
 .bollyrightfloat2{
-    /* border: 2px solid red; */
     height: 800px;
     width: 480px;
     position: absolute;
@@ -375,8 +338,8 @@ a:link{
 
 .categorytop{
     border: 2px solid red;
-    height: auto;
-    height: 1000px;
+    /* height: auto; */
+    height: 800px;
     width: 450px;
     margin: auto;
 }
@@ -393,9 +356,6 @@ a:link{
     height: 2px;
     background: red;
     margin-left: 77px;
-    /* right: 0;
-    top: 50%;
-    position: absolute; */
 }
 
 .article img{

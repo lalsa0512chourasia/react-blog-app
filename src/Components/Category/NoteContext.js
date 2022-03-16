@@ -149,7 +149,7 @@ export const DataProvider = (props) => {
         {
               id: 17,
             title: "A Bite of Yummy",
-            content: "When you eat food with your family and friends, it always tastes better! Everything tastes good when you're hungry. Fresh veggies are one of the healthiest toppings!",
+            content: "When you eat food with your family and friends, it always tastes better! Everything tastes good when you're hungry. Fresh veggies are one of the healthiest toppings! Yummy pizza bite Margherita pizza",
             category: "Food",
             date_of_publish: "Jan 22",
             img: "https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?size=626&ext=jpg",
@@ -184,10 +184,47 @@ export const DataProvider = (props) => {
         {
             id: 21,
             title: "",
-            content: ".",
-            category: "",
+            content: "",
+            category: "bollywood",
             date_of_publish: "",
-            img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
+            // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
+            img: 'https://blog.thomascook.in/wp-content/uploads/2017/01/Four-seasons-Bora-Bora-yexplore.travel-1024x768.jpg'
+        },
+        {
+            id: 22,
+            title: "",
+            content: "",
+            category: "bollywood",
+            date_of_publish: "",
+            // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
+            img: 'http://blogplongee.fr/photos/fakarava/plus-belle-plage-au-monde.JPG'
+        },
+        {
+            id: 23,
+            title: "",
+            content: "",
+            category: "bollywood",
+            date_of_publish: "",
+            // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
+            img: 'https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+        },
+        {
+            id: 24,
+            title: "Climate change in Greenland",
+            content: "Here we are hiking on the ice cap at sunset. Two days before our hike, it rained for the first time in history on the summit of the inland ice,according to the U.S. National Snow and Ice Data Center.",
+            category: "bollywood",
+            date_of_publish: " Jan 22",
+            // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
+            img: 'https://news-decoder.com/wp-content/uploads/2021/11/greenland3-scaled.jpg'
+        },
+        {
+            id: 25,
+            title: "International Day of Yoga",
+            content: "Yoga is the most favourable method to connect to the nature by balancing the mind-body connection. It is a type of exercise which performed through the balanced body and need to get control over diet, breathing.",
+            category: "Fitness",
+            date_of_publish: " Jan 22",
+            // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
+            img: 'https://www.financialexpress.com/wp-content/uploads/2021/06/10-2.jpg'
         },
     ]);
 

@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Category/Header';
 import Home from './Components/Category/Home';
@@ -21,7 +21,7 @@ function App() {
           <Routes>
             {/* <Route path='/' element={<Home/>}/> */}
 
-            <Route path='/' element={<Home />} />
+            <Route path='/' element={<Home/>} />
             <Route path='/bollywood' element={<Bollywood />} />
             <Route path='/technology' element={<Technology />} />
             <Route path='/hollywood' element={<Hollywood />} />

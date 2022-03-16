@@ -62,15 +62,16 @@ const Food = () => {
         return (
           <div className="bollymain" key={curElem.id}>
             <div className="bolly">
-            <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> <img src={curElem.img} alt="My Awesome" /> 
+            <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> <img src={curElem.img} alt="My Awesome" /> </Link>
               <div className="bollyp">
+              <Link  to={`/bolly/${curElem.category}/${curElem.id}`}> 
                 <h3>{curElem.title}</h3>
 
                 <span>{curElem.content}</span><br />
 
                 <strong>{curElem.category}</strong>/ {curElem.date_of_publish}
-
-              </div></Link>
+                </Link>
+              </div>
               <hr />
             </div>
           </div>
