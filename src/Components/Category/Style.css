@@ -337,7 +337,7 @@ a:active, a:hover{
 }
 
 .categorytop{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* height: auto; */
     height: 800px;
     width: 450px;
@@ -363,7 +363,7 @@ a:active, a:hover{
     width: 450px;
 }
 .article p{
-    margin-top: 35px;
+    margin-top: 25px;
     font-size: 18px;
 }
 
@@ -385,4 +385,30 @@ a:active, a:hover{
 }
 .reaplatest{
     margin-top: -580px;
+}
+.social{
+    /* border: 1px solid black; */
+    width: 100px;
+    /* margin-top: -50px; */
+    margin-top: -6px;
+    margin-left: 320px;
+    letter-spacing: 12px;
+    font-size: 22px;  
+}
+.clap{
+    font-size: 30px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+
+}
+.clap span{
+    font-size: 14px;
+    margin-left: 15px;
+
+}
+.parapr{
+    position: relative;
+    /* top: -110px; */
+    left: 10px;
+    color: grey;
 }

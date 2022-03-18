@@ -184,7 +184,7 @@ export const DataProvider = (props) => {
         {
             id: 21,
             title: "",
-            content: "",
+            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste, eligendi in vero ullam cumque officiis quisquam autem odit explicabo.",
             category: "bollywood",
             date_of_publish: "",
             // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
@@ -193,7 +193,7 @@ export const DataProvider = (props) => {
         {
             id: 22,
             title: "",
-            content: "",
+            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste, eligendi in vero ullam cumque officiis quisquam autem odit explicabo.",
             category: "bollywood",
             date_of_publish: "",
             // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
@@ -202,7 +202,7 @@ export const DataProvider = (props) => {
         {
             id: 23,
             title: "",
-            content: "",
+            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste, eligendi in vero ullam cumque officiis quisquam autem odit explicabo.",
             category: "bollywood",
             date_of_publish: "",
             // img: "https://i.pinimg.com/564x/9d/c0/a9/9dc0a948a0ffc73b9711253f3654be55.jpg",
