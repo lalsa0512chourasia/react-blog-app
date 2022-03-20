@@ -63,6 +63,7 @@ width: 370px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* margin-top: 50px; */
 }
 .box_1 img{
     margin:25px;
@@ -192,7 +193,8 @@ width: 370px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    margin: 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 .top{
     margin: 20px 0px 50px 20px;
@@ -347,6 +349,8 @@ a:active, a:hover{
     font-size: 28px;
     margin-right: 1100px;
     font-weight: 600;
+    font-weight: 600;
+    margin-bottom: 35px;
 }
 .morefrom:after
 {
@@ -409,6 +413,9 @@ a:active, a:hover{
 .parapr{
     position: relative;
     /* top: -110px; */
-    left: 10px;
+    left: 5px;
     color: grey;
+}
+.btm{
+    margin-left: -235px;
 }
