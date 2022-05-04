@@ -1,18 +1,43 @@
-import React, { useState } from 'react';
-import { useContext } from 'react'
-import { NoteContext } from './NoteContext'
+import React, { useState, useEffect } from 'react';
+// import { useContext,useEffect } from 'react'
+// import { NoteContext } from './NoteContext'
 import { Link } from 'react-router-dom';
+import axios from 'axios'
+
 
 const Bollywood = () => {
-  const [data] = useContext(NoteContext);
+  // const [data] = useContext(NoteContext);
+  const [loadm, setloadm] = useState(false);  //load more data 
+
   const [load, setload] = useState(false)
+  const [blog, setBlog]= useState([]);
 
   const setloadmore = () => {
 
-    setload(!load)
-    // setName("Load less")
+    setloadm(!loadm)
+    
   }
-  // const [load, setload] = useState(false);
+
+
+
+  const getblogs = () => {
+    // axios.get("http://localhost:3001/api/v1/category")
+    axios.get(" https://react-blog-backen.herokuapp.com/api/v1/category")
+        .then((response) => {
+            console.log(response);
+            setBlog(response.data)
+            setload(true)
+        })
+}
+useEffect(() => {
+    getblogs()
+}, [])
+
+
+
+
+
+
   // console.log(data);
 
   // const moreitems = () => {
@@ -28,10 +53,10 @@ const Bollywood = () => {
       <h1>Bollywood</h1>
 
 
-      {load ?
+      {loadm ?
         <>
 
-          {data.filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
+          {blog.filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
             return (
               <div className="bollymain" key={curElem.id}>
                 <div className="bolly">
@@ -52,7 +77,7 @@ const Bollywood = () => {
           })}
 
           <>
-            {data.filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
+            {blog.filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
               return (
                 <div className="bollymain" key={curElem.id}>
                   <div className="bolly">
@@ -74,7 +99,7 @@ const Bollywood = () => {
         </>
         :
         <>
-          {data.filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
+          {blog.filter((x) => x.id > 0 && x.id < 5).map((curElem) => {
             return (
               <div className="bollymain" key={curElem.id}>
                 <div className="bolly">
@@ -117,7 +142,7 @@ const Bollywood = () => {
       </div>
 
       {/* <button className='loadm' onClick={() => setload(!load)}>Load More</button> */}
-      <button className='loadm' onClick={setloadmore}>{load === false ? "Load More" : "Load Less"}</button>
+      <button className='loadm' onClick={setloadmore}>{loadm === false ? "Load More" : "Load Less"}</button>
 
     </>
   )

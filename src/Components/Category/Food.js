@@ -1,22 +1,41 @@
-import React, { useContext, useState } from 'react';
+import { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
-import { NoteContext } from './NoteContext'
+// import React,{useContext} from 'react';
+// import { NoteContext } from './NoteContext'
+import axios from 'axios'
+
 
 const Food = () => {
-  const [data] = useContext(NoteContext);
-  console.log(data);
+  // const [data] = useContext(NoteContext);
+  // console.log(data);
+  const [loadm, setloadm] = useState(false)
+  const [blog, setBlog]= useState([]);
   const [load, setload] = useState(false)
 
+    
+  const getblogs = () => {
+    axios.get("https://react-blog-backen.herokuapp.com/api/v1/category")
+        .then((response) => {
+            console.log(response);
+            setBlog(response.data)
+            setload(true)
+        })
+}
+useEffect(() => {
+    getblogs()
+}, [])
+
+
   const setloadmore = () => {
-    setload(!load)
+    setloadm(!loadm)
   }
   return (
     <>
       <h1>Food</h1>
-      {load ?
+      {loadm ?
       <>
       
-      {data.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
+      {blog.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
         return (
           <div className="bollymain" key={curElem.id}>
             <div className="bolly">
@@ -36,7 +55,7 @@ const Food = () => {
       })}
 
       <>
-      {data.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
+      {blog.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
         return (
           <div className="bollymain" key={curElem.id}>
             <div className="bolly">
@@ -58,7 +77,7 @@ const Food = () => {
       </>
       :
       <>
-       {data.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
+       {blog.filter((x) => x.id > 16 && x.id < 21).map((curElem) => {
         return (
           <div className="bollymain" key={curElem.id}>
             <div className="bolly">
@@ -99,7 +118,7 @@ const Food = () => {
 Advertisement
 </div>
 
-<button className='loadm' onClick={setloadmore}>{load === false ? "Load More" : "Load Less"}</button>
+<button className='loadm' onClick={setloadmore}>{loadm === false ? "Load More" : "Load Less"}</button>
 
     </>
   )
